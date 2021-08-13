@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Examen</title>
+</head>
+<body>
+    <h1>ExamenU3</h1>
+                    <label>Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                    <br><br>
+                    <label>Apellido Paterno:</label>
+                    <br>
+                    <input type="text" id="apellidop" name="apellidop" placeholder="Apellido Paterno" />
+                    <br><br>
+                    <label>Apellido Materno:</label>
+                    <br>
+                    <input type="text" id="apellidom" name="apellidom" placeholder="Apellido Materno" />
+                    <br><br>
+                    <label>Pokemon:</label>
+                    <br>
+                    <select id="pokemon" name="pokemon">
+                        <option>Porygon</option>
+                        <option>Dratini</option>
+                        <option>Starmie</option>
+                        <option>Magikarp</option>
+                        <option>Hitmonlee</option>
+                    </select>
+                    <br>
+                    <button onclick="clearForm()">Limpiar</button>
+                    <br><br>
+
+                    <button onclick="create()">Crear</button>
+                    <button onclick="update()">Actualizar</button>
+                    <button onclick="deleteItem()">Eliminar</button>
+                    <br><br>
+                    <select id="panel" size="20" onclick="panelClick()"> </select>
+                </div>
+            </div>
+            </form>
+        </div>
+        <script src="beth.js">
+        </script>
+</body>
+
+</html>
